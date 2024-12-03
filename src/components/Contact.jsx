@@ -2,9 +2,10 @@ import React from 'react'
 import AnimatedTitle from "./AnimatedTitle";
 import Button from "./Button";
 
+// eslint-disable-next-line react/prop-types
 const ImageClipBox = ({src, clipClass}) => (
     <div className={clipClass}>
-        <img src={src}/>
+        '<img src={src} alt="pic"/>
     </div>
 );
 
